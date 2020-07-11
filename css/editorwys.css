@@ -1,0 +1,101 @@
+/*
+	Sistema desenvolvido por SatellaSoft
+	www.satellasoft.com
+	Leia nossos termos de uso e politica de privacidade em nosso site.
+*/
+
+*{
+	margin:0 auto; 
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+
+#bar button{
+	width:20px;
+	height:20px;
+	border:none;
+	background-color:#EEE;
+	outline:none;
+}
+
+#bar button:hover{
+	background-color:#FFF;
+}
+
+#slFonte, #slSize{
+	height:22px;
+}
+
+/* Begin format elements here*/
+
+.btn{
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+#btn_new{background-image: url("../img/new.png");}
+#btn_delete{background-image: url("../img/delete.png");}
+
+#btn_copy{background-image: url("../img/copy.png");}
+#btn_cut{background-image: url("../img/cut.png");}
+#btn_paste{background-image: url("../img/paste.png");}
+
+#btn_undo{background-image: url("../img/undo.png");}
+#btn_redo{background-image: url("../img/redo.png");}
+
+#btn_bold{background-image: url("../img/font_bold.png");}
+#btn_italic{background-image: url("../img/font_italic.png");}
+#btn_underline{background-image: url("../img/font_underline.png");}
+
+#btn_color{background-image: url("../img/edit_color.png");}
+#btn_left{background-image: url("../img/text_align_left.png");}
+#btn_center{background-image: url("../img/text_align_center.png");}
+#btn_right{background-image: url("../img/text_align_right.png");}
+#btn_justify{background-image: url("../img/text_align_justify.png");}
+
+#btn_line{background-image: url("../img/line.png");}
+#btn_unordered{background-image: url("../img/unordered.png");}
+#btn_ordered{background-image: url("../img/ordered.png");}
+
+#btn_link{background-image: url("../img/link.png");}
+#btn_link_break{background-image: url("../img/link_break.png");}
+
+#btn_image{background-image: url("../img/picture.png");}
+#btn_audio{background-image: url("../img/audio.png");}
+
+#btn_select{background-image: url("../img/select_all.png");}
+#btn_paragraph{background-image: url("../img/paragraph.png");}
+
+
+.margin{
+	margin-left:15px;
+}
+/* end format elements here*/
+
+#dvCenterEditor{
+	max-width:1028px;
+	width:100%;
+	height:auto;
+}
+
+#bar{
+	width:100%;
+	max-width:1028px;
+	height:24px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#EEE;
+}
+
+#Editor{
+	border:1px solid #111;
+	max-width:1028px;
+	width:100%;
+	height:500px;
+	overflow-x:hidden;
+}

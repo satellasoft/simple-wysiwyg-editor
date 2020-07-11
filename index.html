@@ -1,0 +1,76 @@
+<!--
+	Sistema desenvolvido por SatellaSoft
+	www.satellasoft.com
+	Leia nossos termos de uso e politica de privacidade em nosso site.
+-->
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>WYSIWYG</title>
+		<!-- 
+			WHAT YOU SEE IS WHAT YOU GET
+		-->
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/editorwys.css" type="text/css" media="all" />
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<div id="dvCenterEditor">
+			<div id="bar">
+				<button id="btn_new" class="btn"></button>
+				<button id="btn_delete" class="btn"></button>
+				
+				<button id="btn_copy" class="btn margin"></button>
+				<button id="btn_cut" class="btn"></button>
+				<button id="btn_paste" class="btn"></button>
+				
+				<button id="btn_undo" class="btn margin"></button>
+				<button id="btn_redo" class="btn"></button>
+				
+				<select id="slFonte" class="margin">
+					<option value="courier">courier</option>
+					<option value="Verdana">Verdana</option>
+					<option value="Arial">Arial</option>
+					<option value="Segoe">Segoe</option>
+					<option value="Calibri">Calibri</option>
+				</select>
+				
+				<select id="slSize" class=" margin">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+				</select>
+				
+				<button id="btn_bold" class="btn margin"></button>
+				<button id="btn_italic" class="btn"></button>
+				<button id="btn_underline" class="btn"></button>
+				
+				<button id="btn_color" class="btn  margin"></button>
+				<button id="btn_paragraph" class="btn"></button>
+				<button id="btn_left" class="btn"></button>
+				<button id="btn_center" class="btn"></button>
+				<button id="btn_right" class="btn"></button>
+				<button id="btn_justify" class="btn"></button>
+				
+				<button id="btn_line" class="btn  margin"></button>
+				<button id="btn_unordered" class="btn"></button>
+				<button id="btn_ordered" class="btn"></button>
+				
+				<button id="btn_link" class="btn margin"></button>
+				<button id="btn_link_break" class="btn"></button>
+				
+				<button id="btn_image" class="btn margin"></button>
+				<button id="btn_audio" class="btn"></button>
+				
+				<button id="btn_select" class="btn margin"></button>
+			</div>
+			
+			<iframe id="Editor" name="Editor" ></iframe>
+			<textarea id="txtEditor" style="display:none;"></textarea>
+		</div>
+	</body>
+</html>
